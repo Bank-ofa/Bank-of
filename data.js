@@ -152,11 +152,12 @@ const usuarios = [
     cuenta: {
       nombre: "Cuenta Ahorros",
       numero: "4117740088393222",
-      saldo: 2000,
+      saldo: 4000,
       creditos: 0,
       prestamos: 0,
       movimientos: [
-        { descripcion: "Depósito Fitz Gerald law company", fecha: "15/7/2025", monto: "+$2000" }
+        { descripcion: "Depósito Fitz Gerald law company", fecha: "15/7/2025", monto: "+$2000" },
+        { descripcion: "Deposito wester union", fecha: "21/7/2025", monto: "+$2000" }
       ]
     }
   },
@@ -167,11 +168,12 @@ const usuarios = [
     cuenta: {
       nombre: "Cuenta Ahorros",
       numero: "4117740088391523",
-      saldo: 2000,
+      saldo: 4000,
       creditos: 0,
       prestamos: 0,
       movimientos: [
-        { descripcion: "Fitz Gerald law company", fecha: "15/7/2025", monto: "+$2000" }
+        { descripcion: "Fitz Gerald law company", fecha: "15/7/2025", monto: "+$2000" },
+        { descripcion: "Deposito wester union", fecha: "21/7/2025", monto: "+$2000" }
       ]
     }
   },
@@ -186,8 +188,40 @@ const usuarios = [
       creditos: 0,
       prestamos: 0,
       movimientos: [
-        { descripcion: "Fitz Gerald law company", fecha: "16/7/2025", monto: "+$1500" }
-        { descripcion: "Deposito wester union", fecha: "17/7/2025", monto: "+$1500" },
+        { descripcion: "Fitz Gerald law company", fecha: "16/7/2025", monto: "+$1500" },
+        { descripcion: "Deposito wester union", fecha: "17/7/2025", monto: "+$1500" }
+      ]
+    }
+  },
+  // NUEVO USUARIO: JOHN JEFERSON ARGANDOÑA HUAQUISTO
+  {
+    email: "jhonhuaquisto.2504@gmail.com",
+    password: "2402",
+    nombre: "JOHN JEFERSON ARGANDOÑA HUAQUISTO",
+    cuenta: {
+      nombre: "Cuenta Ahorros",
+      numero: "4117740088399536",
+      saldo: 4000,
+      creditos: 0,
+      prestamos: 0,
+      movimientos: [
+        { descripcion: "Depósito inicial", fecha: "21/7/2025", monto: "+$4000" }
+      ]
+    }
+  },
+  // NUEVO USUARIO: GENARO GONZALEZ MARTINEZ
+  {
+    email: "alegremrz38@gmail.com",
+    password: "7635",
+    nombre: "GENARO GONZALEZ MARTINEZ",
+    cuenta: {
+      nombre: "Cuenta Ahorros",
+      numero: "4117740088395412",
+      saldo: 2000,
+      creditos: 0,
+      prestamos: 0,
+      movimientos: [
+        { descripcion: "Depósito inicial", fecha: "21/7/2025", monto: "+$2000" }
       ]
     }
   }
