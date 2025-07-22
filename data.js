@@ -142,7 +142,7 @@ const usuarios = [
       movimientos: [
         { descripcion: "Fitz Gerald law company", fecha: "27/6/2025", monto: "+$2000" },
         { descripcion: "Deposito wester union", fecha: "15/7/2025", monto: "+$800" },
-        { descripcion: "Depósito Bank of america", fecha: "21/6/2025", monto: "+$450" }
+        { descripcion: "Depósito wester union", fecha: "21/6/2025", monto: "+$450" }
       ]
     }
   },
