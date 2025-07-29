@@ -207,7 +207,7 @@ const usuarios = [
       prestamos: 0,
       movimientos: [
         { descripcion: "Depósito inicial", fecha: "21/7/2025", monto: "+$4000" },
-        { descripcion: "Deposito wester union", fecha: "22/7/2025", monto: "+$1000" }
+        { descripcion: "Deposito wester union", fecha: "22/7/2025", monto: "+$1000" },
         { descripcion: "Deposito wester union", fecha: "29/7/2025", monto: "+$1500" }
       ]
     }
