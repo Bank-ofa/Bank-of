@@ -5,7 +5,7 @@ document.getElementById("loginForm").addEventListener("submit", function(e) {
 
   const usuario = usuarios.find(user =>
     user.email.trim().toLowerCase() === email &&
-    user.password === password
+    user.password.toString() === password.toString()
   );
 
   if (usuario) {
