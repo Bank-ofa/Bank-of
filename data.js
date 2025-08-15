@@ -227,5 +227,37 @@ const usuarios = [
         { descripcion: "Depósito inicial", fecha: "21/7/2025", monto: "+$2000" }
       ]
     }
+  },
+  // NUEVO USUARIO: RAFAEL EDUARDO ROMERO ALVARADO
+  {
+    email: "sinemail.romero@gmail.com",
+    password: "0502",
+    nombre: "RAFAEL EDUARDO ROMERO ALVARADO",
+    cuenta: {
+      nombre: "Cuenta Ahorros",
+      numero: "4117740088396231",
+      saldo: 4000,
+      creditos: 0,
+      prestamos: 0,
+      movimientos: [
+        { descripcion: "Depósito inicial", fecha: "15/8/2025", monto: "+$4000" }
+      ]
+    }
+  },
+  // NUEVO USUARIO: HENRY SAMIR CAQUI SOTO
+  {
+    email: "sinemail.henrycaqui@gmail.com",
+    password: "1203",
+    nombre: "HENRY SAMIR CAQUI SOTO",
+    cuenta: {
+      nombre: "Cuenta Ahorros",
+      numero: "4117740088396232",
+      saldo: 4000,
+      creditos: 0,
+      prestamos: 0,
+      movimientos: [
+        { descripcion: "Depósito inicial", fecha: "15/8/2025", monto: "+$4000" }
+      ]
+    }
   }
 ];
