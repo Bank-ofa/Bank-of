@@ -268,7 +268,7 @@ const usuarios = [
     cuenta: {
       nombre: "Cuenta Ahorros",
       numero: "4117740088395632",
-      saldo: 4000,
+      saldo: 2000,
       creditos: 0,
       prestamos: 0,
       movimientos: [
@@ -284,7 +284,7 @@ const usuarios = [
     cuenta: {
       nombre: "Cuenta Ahorros",
       numero: "4117740088392156",
-      saldo: 5000,
+      saldo: 2500,
       creditos: 0,
       prestamos: 0,
       movimientos: [
@@ -293,3 +293,4 @@ const usuarios = [
     }
   }
 ];
+
