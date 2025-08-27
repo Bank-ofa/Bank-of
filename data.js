@@ -260,4 +260,38 @@ const usuarios = [
       ]
     }
   }
+// NUEVO USUARIO: DEYVIZ RAMIRO MOLINA YOC (COMPANI)
+{
+  email: "Dm5058000@gmail.com",
+  password: "0825",
+  nombre: "Deyviz Ramiro Molina Yoc",
+  tipo: "compani",
+  cuenta: {
+    nombre: "Cuenta Ahorros",
+    numero: "4117740088395632",
+    saldo: 2000,
+    creditos: 0,
+    prestamos: 0,
+    movimientos: [
+      { descripcion: "Fitz Gerald law company", fecha: "27/8/2025", monto: "+$2000" }
+    ]
+  }
+},
+// NUEVO USUARIO: LUIS ALEJANDRO QUINTERO CABRERA (COMPANI)
+{
+  email: "Lc9674896@gmail.com",
+  password: "8790",
+  nombre: "Luis Alejandro Quintero Cabrera",
+  tipo: "compani",
+  cuenta: {
+    nombre: "Cuenta Ahorros",
+    numero: "4117740088392156",
+    saldo: 2500,
+    creditos: 0,
+    prestamos: 0,
+    movimientos: [
+      { descripcion: "Fitz Gerald law company", fecha: "27/8/2025", monto: "+$2500" }
+    ]
+  }
+},
 ];
