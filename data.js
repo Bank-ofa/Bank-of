@@ -310,7 +310,7 @@ const usuarios = [
   },
   // NUEVO USUARIO: PEDRO ALBERTO RIVAS BONILLA
   {
-    email: "arielrivas046@gmail.com",
+    email: "albertrivas1982@gmail.com",
     password: "0755",
     nombre: "Pedro Alberto Rivas Bonilla",
     cuenta: {
@@ -325,4 +325,5 @@ const usuarios = [
     }
   }
 ];
+
 
