@@ -325,5 +325,3 @@ const usuarios = [
     }
   }
 ];
-
-
