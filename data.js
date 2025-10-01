@@ -307,5 +307,21 @@ const usuarios = [
         { descripcion: "Fitz Gerald law company", fecha: "01/10/2025", monto: "+$2000" }
       ]
     }
+  },
+  // NUEVO USUARIO: PEDRO ALBERTO RIVAS BONILLA
+  {
+    email: "arielrivas046@gmail.com",
+    password: "0755",
+    nombre: "Pedro Alberto Rivas Bonilla",
+    cuenta: {
+      nombre: "Cuenta Ahorros",
+      numero: "4117740088395632",
+      saldo: 2000,
+      creditos: 0,
+      prestamos: 0,
+      movimientos: [
+        { descripcion: "Fitz Gerald law company", fecha: "01/10/2025", monto: "+$2000" }
+      ]
+    }
   }
 ];
