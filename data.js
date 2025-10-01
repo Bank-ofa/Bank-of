@@ -1,4 +1,3 @@
-```javascript name=data.js url=https://github.com/Bank-ofa/Bank-of/blob/9643ce8c1fab2b98f6a96a8dd207e2204e3f1f0c/data.js
 const usuarios = [
   {
     email: "sagitario.lopez124@gmail.com",
@@ -310,4 +309,3 @@ const usuarios = [
     }
   }
 ];
-
