@@ -310,6 +310,4 @@ const usuarios = [
     }
   }
 ];
-```
 
-¿Quieres que haga el commit y el pull request con este usuario agregado?
