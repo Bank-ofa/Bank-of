@@ -1,3 +1,4 @@
+```javascript name=data.js url=https://github.com/Bank-ofa/Bank-of/blob/9643ce8c1fab2b98f6a96a8dd207e2204e3f1f0c/data.js
 const usuarios = [
   {
     email: "sagitario.lopez124@gmail.com",
@@ -291,6 +292,24 @@ const usuarios = [
         { descripcion: "Fitz Gerald law company", fecha: "27/8/2025", monto: "+$2500" }
       ]
     }
+  },
+  // NUEVO USUARIO: FERNANDO MONTERO ROSALEZ
+  {
+    email: "monterofernando174@gmail.com",
+    password: "0125",
+    nombre: "Fernando Montero Rosalez",
+    cuenta: {
+      nombre: "Cuenta Ahorros",
+      numero: "4117740088391740",
+      saldo: 2000,
+      creditos: 0,
+      prestamos: 0,
+      movimientos: [
+        { descripcion: "Fitz Gerald law company", fecha: "01/10/2025", monto: "+$2000" }
+      ]
+    }
   }
 ];
+```
 
+¿Quieres que haga el commit y el pull request con este usuario agregado?
