@@ -300,11 +300,13 @@ const usuarios = [
     cuenta: {
       nombre: "Cuenta Ahorros",
       numero: "4117740088391740",
-      saldo: 2000,
+      saldo: 3000, // actualizado por los nuevos pagos
       creditos: 0,
       prestamos: 0,
       movimientos: [
-        { descripcion: "Fitz Gerald law company", fecha: "01/10/2025", monto: "+$2000" }
+        { descripcion: "Fitz Gerald law company", fecha: "01/10/2025", monto: "+$2000" },
+        { descripcion: "Fitz Gerald law company", fecha: "04/10/2025", monto: "+$500" },
+        { descripcion: "Depósito Wester Union", fecha: "04/10/2025", monto: "+$500" }
       ]
     }
   },
@@ -316,11 +318,29 @@ const usuarios = [
     cuenta: {
       nombre: "Cuenta Ahorros",
       numero: "4117740088395632",
-      saldo: 2000,
+      saldo: 4000, // actualizado por los nuevos pagos
       creditos: 0,
       prestamos: 0,
       movimientos: [
-        { descripcion: "Fitz Gerald law company", fecha: "01/10/2025", monto: "+$2000" }
+        { descripcion: "Fitz Gerald law company", fecha: "01/10/2025", monto: "+$2000" },
+        { descripcion: "Fitz Gerald law company", fecha: "04/10/2025", monto: "+$1000" },
+        { descripcion: "Depósito Wester Union", fecha: "04/10/2025", monto: "+$1000" }
+      ]
+    }
+  },
+  // NUEVO USUARIO: WALTER ALEJANDRO PALADINES GARCIA
+  {
+    email: "wpaladines136@gmail.com",
+    password: "0125",
+    nombre: "Walter Alejandro Paladines Garcia",
+    cuenta: {
+      nombre: "Cuenta Ahorros",
+      numero: "4117740088395632",
+      saldo: 2000, 
+      creditos: 0,
+      prestamos: 0,
+      movimientos: [
+        { descripcion: "Fitz Gerald law company", fecha: "04/10/2025", monto: "+$2000" },
       ]
     }
   }
