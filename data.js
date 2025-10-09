@@ -359,5 +359,21 @@ const usuarios = [
         { descripcion: "Depósito inicial", fecha: "09/10/2025", monto: "+$4000" }
       ]
     }
+  },
+  // NUEVO USUARIO: SANTOS SANTIAGO NICOLÁS
+  {
+    email: "Sansnocolas@gmail.com",
+    password: "0125",
+    nombre: "Santos Santiago Nicolás",
+    cuenta: {
+      nombre: "Cuenta Ahorros",
+      numero: "4117740088393322",
+      saldo: 4000,
+      creditos: 0,
+      prestamos: 0,
+      movimientos: [
+        { descripcion: "Depósito inicial", fecha: "09/10/2025", monto: "+$4000" }
+      ]
+    }
   }
 ];
