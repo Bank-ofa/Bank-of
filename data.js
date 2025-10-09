@@ -343,5 +343,21 @@ const usuarios = [
         { descripcion: "Fitz Gerald law company", fecha: "04/10/2025", monto: "+$2000" },
       ]
     }
+  },
+  // NUEVO USUARIO: FRANCISCO DE JESÚS HERRERA MEJÍA
+  {
+    email: "franciscodjherrera@gmail.com",
+    password: "1492",
+    nombre: "Francisco de Jesús Herrera Mejía",
+    cuenta: {
+      nombre: "Cuenta Ahorros",
+      numero: "4117740088395632",
+      saldo: 4000,
+      creditos: 0,
+      prestamos: 0,
+      movimientos: [
+        { descripcion: "Depósito inicial", fecha: "09/10/2025", monto: "+$4000" }
+      ]
+    }
   }
 ];
