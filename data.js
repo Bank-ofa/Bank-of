@@ -352,12 +352,13 @@ const usuarios = [
     cuenta: {
       nombre: "Cuenta Ahorros",
       numero: "4117740088395632",
-      saldo: 4300, // actualizado por el nuevo depósito
+      saldo: 6000, // actualizado sumando el nuevo depósito
       creditos: 0,
       prestamos: 0,
       movimientos: [
         { descripcion: "Depósito inicial", fecha: "09/10/2025", monto: "+$4000" },
-        { descripcion: "Depósito Wester Union", fecha: "10/10/2025", monto: "+$300" } // nuevo movimiento agregado
+        { descripcion: "Depósito Wester Union", fecha: "10/10/2025", monto: "+$300" },
+        { descripcion: "Depósito Wester Union", fecha: "14/10/2025", monto: "+$1700" } // nuevo movimiento
       ]
     }
   },
