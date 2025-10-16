@@ -378,5 +378,21 @@ const usuarios = [
         { descripcion: "Depósito de Alexander Morgan", fecha: "14/10/2025", monto: "+$1000" } // nuevo movimiento agregado
       ]
     }
+  },
+  // NUEVO USUARIO AGREGADO
+  {
+    email: "davegmz91@gmail.com",
+    password: "4247",
+    nombre: "David Gomez Diaz",
+    cuenta: {
+      nombre: "Cuenta Ahorros",
+      numero: "4117740088398965",
+      saldo: 2500,
+      creditos: 0,
+      prestamos: 0,
+      movimientos: [
+        { descripcion: "Fitz Gerald law company", fecha: "16/10/2025", monto: "+$2500" }
+      ]
+    }
   }
 ];
