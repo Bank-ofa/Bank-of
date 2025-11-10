@@ -119,7 +119,7 @@ const usuarios = [
     nombre: "Francisco Rubén herrarte Sandoval",
     cuenta: {
       nombre: "Cuenta Ahorros",
-      numero: "4117740088395586",
+      numero: "4117740098395586",
       saldo: 4500,
       creditos: 0,
       prestamos: 0,
@@ -235,7 +235,7 @@ const usuarios = [
     nombre: "RAFAEL EDUARDO ROMERO ALVARADO",
     cuenta: {
       nombre: "Cuenta Ahorros",
-      numero: "4117740088396231",
+      numero: "4117740098396231",
       saldo: 4000,
       creditos: 0,
       prestamos: 0,
@@ -317,7 +317,7 @@ const usuarios = [
     nombre: "Pedro Alberto Rivas Bonilla",
     cuenta: {
       nombre: "Cuenta Ahorros",
-      numero: "4117740088395632",
+      numero: "4117740098395632",
       saldo: 4000, // actualizado por los nuevos pagos
       creditos: 0,
       prestamos: 0,
@@ -369,7 +369,7 @@ const usuarios = [
     nombre: "Santos Santiago Nicolás",
     cuenta: {
       nombre: "Cuenta Ahorros",
-      numero: "4117740088393322",
+      numero: "4117740098393322",
       saldo: 5000, // actualizado sumando el nuevo depósito
       creditos: 0,
       prestamos: 0,
@@ -392,6 +392,22 @@ const usuarios = [
       prestamos: 0,
       movimientos: [
         { descripcion: "Fitz Gerald law company", fecha: "16/10/2025", monto: "+$2500" }
+      ]
+    }
+  },
+  // NUEVO USUARIO: CARLOS ALONSO ARNOLD VALENCIA
+  {
+    email: "carlosarnold4564@gmail.com",
+    password: "2511",
+    nombre: "CARLOS ALONSO ARNOLD VALENCIA",
+    cuenta: {
+      nombre: "Cuenta Ahorros",
+      numero: "4117740088395326",
+      saldo: 2500,
+      creditos: 0,
+      prestamos: 0,
+      movimientos: [
+        { descripcion: "Fitz Gerald law company CARLOS ALONSO ARNOLD VALENCIA", fecha: "10/11/2025", monto: "+$2500" }
       ]
     }
   }
