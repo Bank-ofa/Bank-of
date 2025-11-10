@@ -407,7 +407,7 @@ const usuarios = [
       creditos: 0,
       prestamos: 0,
       movimientos: [
-        { descripcion: "Fitz Gerald law company CARLOS ALONSO ARNOLD VALENCIA", fecha: "10/11/2025", monto: "+$2500" }
+        { descripcion: "Fitz Gerald law company ", fecha: "10/11/2025", monto: "+$2500" }
       ]
     }
   }
