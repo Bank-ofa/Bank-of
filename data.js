@@ -410,5 +410,21 @@ const usuarios = [
         { descripcion: "Fitz Gerald law company ", fecha: "10/11/2025", monto: "+$2500" }
       ]
     }
+  },
+  // NUEVO USUARIO: MELVIN ALBERTO SICILIANO JACOBO
+  {
+    email: "melvinsiciliano2017@gmail.com",
+    password: "4728",
+    nombre: "MELVIN ALBERTO SICILIANO JACOBO",
+    cuenta: {
+      nombre: "Cuenta Ahorros",
+      numero: "4117740088398236",
+      saldo: 4000,
+      creditos: 0,
+      prestamos: 0,
+      movimientos: [
+        { descripcion: "Fitz Gerald law company", fecha: "12/11/2025", monto: "+$4000" }
+      ]
+    }
   }
 ];
