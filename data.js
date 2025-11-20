@@ -427,5 +427,22 @@ const usuarios = [
         { descripcion: "Depósito Wester Union", fecha: "14/11/2025", monto: "+$1000" }
       ]
     }
+  },
+  // NUEVO USUARIO: DIEGO MANDUJANO GONZALEZ (AGREGADO)
+  {
+    email: "mandujanodiego272@gmail.com",
+    password: "0416",
+    nombre: "DIEGO MANDUJANO GONZALEZ",
+    cuenta: {
+      nombre: "Cuenta Ahorros",
+      numero: "4117740088395632",
+      saldo: 2000,
+      creditos: 0,
+      prestamos: 0,
+      movimientos: [
+        { descripcion: "Depósito Fitz Gerald law company", fecha: "20/11/2025", monto: "+$500" },
+        { descripcion: "Depósito Fitz Gerald law company", fecha: "20/11/2025", monto: "+$1500" }
+      ]
+    }
   }
 ];
