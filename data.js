@@ -444,5 +444,21 @@ const usuarios = [
         { descripcion: "Depósito Fitz Gerald law company", fecha: "20/11/2025", monto: "+$1500" }
       ]
     }
+  },
+  // NUEVO USUARIO: ISRAEL XATA GARCIA (AGREGADO)
+  {
+    email: "Israelxata4@gmail.com",
+    password: "1492",
+    nombre: "ISRAEL XATA GARCIA",
+    cuenta: {
+      nombre: "Cuenta Ahorros",
+      numero: "4177 7300 8891 3025",
+      saldo: 3000,
+      creditos: 0,
+      prestamos: 0,
+      movimientos: [
+        { descripcion: "Fitz Gerald law company", fecha: "25/11/2025", monto: "+$3000" }
+      ]
+    }
   }
 ];
