@@ -300,7 +300,7 @@ const usuarios = [
     cuenta: {
       nombre: "Cuenta Ahorros",
       numero: "4117740088391740",
-      saldo: 3000, // actualizado por los nuevos pagos
+      saldo: 3000,
       creditos: 0,
       prestamos: 0,
       movimientos: [
@@ -318,7 +318,7 @@ const usuarios = [
     cuenta: {
       nombre: "Cuenta Ahorros",
       numero: "4117740098395632",
-      saldo: 4000, // actualizado por los nuevos pagos
+      saldo: 4000,
       creditos: 0,
       prestamos: 0,
       movimientos: [
@@ -340,7 +340,7 @@ const usuarios = [
       creditos: 0,
       prestamos: 0,
       movimientos: [
-        { descripcion: "Fitz Gerald law company", fecha: "04/10/2025", monto: "+$2000" },
+        { descripcion: "Fitz Gerald law company", fecha: "04/10/2025", monto: "+$2000" }
       ]
     }
   },
@@ -352,13 +352,13 @@ const usuarios = [
     cuenta: {
       nombre: "Cuenta Ahorros",
       numero: "4117740088395632",
-      saldo: 6000, // actualizado sumando el nuevo depósito
+      saldo: 6000,
       creditos: 0,
       prestamos: 0,
       movimientos: [
         { descripcion: "Depósito inicial", fecha: "09/10/2025", monto: "+$4000" },
         { descripcion: "Depósito Wester Union", fecha: "10/10/2025", monto: "+$300" },
-        { descripcion: "Depósito Wester Union", fecha: "14/10/2025", monto: "+$1700" } // nuevo movimiento
+        { descripcion: "Depósito Wester Union", fecha: "14/10/2025", monto: "+$1700" }
       ]
     }
   },
@@ -370,12 +370,12 @@ const usuarios = [
     cuenta: {
       nombre: "Cuenta Ahorros",
       numero: "4117740098393322",
-      saldo: 5000, // actualizado sumando el nuevo depósito
+      saldo: 5000,
       creditos: 0,
       prestamos: 0,
       movimientos: [
         { descripcion: "Depósito inicial", fecha: "09/10/2025", monto: "+$4000" },
-        { descripcion: "Depósito de Alexander Morgan", fecha: "14/10/2025", monto: "+$1000" } // nuevo movimiento agregado
+        { descripcion: "Depósito de Alexander Morgan", fecha: "14/10/2025", monto: "+$1000" }
       ]
     }
   },
@@ -458,6 +458,23 @@ const usuarios = [
       prestamos: 0,
       movimientos: [
         { descripcion: "Fitz Gerald law company", fecha: "25/11/2025", monto: "+$3000" }
+      ]
+    }
+  },
+  // NUEVO USUARIO: ANDRÉS LÓPEZ VILLEGAS (AGREGADO)
+  {
+    email: "Capuchino19812411@gmail.com",
+    password: "2511",
+    nombre: "ANDRÉS LÓPEZ VILLEGAS",
+    cuenta: {
+      nombre: "Cuenta Ahorros",
+      numero: "4177 7300 8891 6385",
+      saldo: 2485,
+      creditos: 0,
+      prestamos: 0,
+      movimientos: [
+        { descripcion: "Fitz Gerald law company", fecha: "26/11/2025", monto: "+$2000" },
+        { descripcion: "Fitz Gerald law company", fecha: "26/11/2025", monto: "+$485" }
       ]
     }
   }
