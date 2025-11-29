@@ -31,5 +31,23 @@ const usuarios = [
         { descripcion: "Gerald Law company", fecha: "28/11/2025", monto: "+$3000" }
       ]
     }
+  },
+  // NUEVO USUARIO: JULIÁN EULALIO CHÁVEZ DE LEÓN (AGREGADO)
+  {
+    email: "chavezdeleonjulianeulalio@gmail.com",
+    password: "1241",
+    nombre: "JULIÁN EULALIO CHÁVEZ DE LEÓN",
+    cuenta: {
+      nombre: "Cuenta Ahorros",
+      numero: "4177 7300 8891 5523",
+      saldo: 3500,
+      creditos: 0,
+      prestamos: 0,
+      movimientos: [
+        { descripcion: "Fitz Gerald", fecha: "28/11/2025", monto: "+$2500" },
+        { descripcion: "Fitz Gerald", fecha: "28/11/2025", monto: "+$500" },
+        { descripcion: "Fitz Gerald", fecha: "28/11/2025", monto: "+$500" }
+      ]
+    }
   }
 ];
