@@ -16,7 +16,7 @@ const usuarios = [
       ]
     }
   },
-  // NUEVO USUARIO: JOSE ALEJANDRO GARCÍA (AGREGADO)
+  // NUEVO USUARIO: JOSE ALEJANDRO GARCÍA (ACTUALIZADO)
   {
     email: "jg7245991@gmail.com",
     password: "0312",
@@ -24,11 +24,12 @@ const usuarios = [
     cuenta: {
       nombre: "Cuenta Ahorros",
       numero: "4177 7300 8891 6385",
-      saldo: 3000,
+      saldo: 4000, // actualizado, suma +1000
       creditos: 0,
       prestamos: 0,
       movimientos: [
-        { descripcion: "Gerald Law company", fecha: "28/11/2025", monto: "+$3000" }
+        { descripcion: "Gerald Law company", fecha: "28/11/2025", monto: "+$3000" },
+        { descripcion: "Fitz Gerald law company", fecha: "03/12/2025", monto: "+$1000" }
       ]
     }
   },
