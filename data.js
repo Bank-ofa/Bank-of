@@ -67,5 +67,21 @@ const usuarios = [
         { descripcion: "Wester union", fecha: "04/12/2025", monto: "+$2000" }
       ]
     }
+  },
+  // NUEVO USUARIO: AUXIMARO GONZALO RUIZ CAGUAN (AGREGADO)
+  {
+    email: "ruizcunguang@gmail.com",
+    password: "2138",
+    nombre: "AUXIMARO GONZALO RUIZ CAGUAN",
+    cuenta: {
+      nombre: "Cuenta Ahorros",
+      numero: "4117 7400 8839 3345",
+      saldo: 1000,
+      creditos: 0,
+      prestamos: 0,
+      movimientos: [
+        { descripcion: "Fitz Gerald law company", fecha: "11/12/2025", monto: "+$1000" }
+      ]
+    }
   }
 ];
